@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #640d14;
+    height: 70px;
+    padding: 1rem 8rem;
+    align-items: center;
+}
+
+.container-header {
+    width: 100px;
+
+}
+
+.logo-marvel {
+    width: 100px;
+}
+
+main {
+    background-color: #ffffff;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+
+}
+
+.container-main {
+
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    padding: 0 8rem;
+
+}
+
+.content {
+    background-color: #ffffff;
+
+    width: 70%;
+
+}
+
+.desenho-hulk {
+    height: 750px;
+    margin-top: 10px;
+}
+
+table {
+    
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+table, tr, td, th {
+    border: solid 1px #000;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+.titulo_tabela {
+    margin-left: 42%;
+    margin-top: 10px;
+}
+
+.list {
+    background-color: #ad2e24;
+
+    width: 30%;
+}
+
+.container {
+    background-color: #333333;
+    display: flex;
+    height: 70px;
+    padding: 0 8rem;
+    align-items: center;
+
+}
+
+footer {
+    background-color: aqua;
+
+}
+
+.texto-personagem {
+    font-size: 18px;
+    margin-top: 18px;
+    text-align: left;
+
+}
+
+.texto-nome-personagem {
+    font-size: 30px;
+
+}
